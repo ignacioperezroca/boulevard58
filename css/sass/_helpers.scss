@@ -1,0 +1,39 @@
+// -------------------------
+// HELPERS
+// -------------------------
+
+.none{
+	display: none !important;
+}
+.min-height-90{
+	min-height: 90px;
+}
+.no-limit-fluid{
+    max-width: none;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.inline{
+    display: inline-block;
+}
+.relative{
+    position: relative;
+}
+a{
+	color: #404040;
+	text-decoration: none;
+	&:hover{
+		color: #333;
+	}
+}
+a:-webkit-any-link {
+	text-decoration: none;
+}
+.ellipsis{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
